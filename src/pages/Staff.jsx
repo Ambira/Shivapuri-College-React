@@ -23,7 +23,7 @@ export default function Staff() {
 
   return (
     <section className="py-14 max-w-6xl mx-auto px-6">
-      <h1 className="text-3xl font-bold text-scblue">Teaching Staff</h1>
+      <h1 className="text-3xl font-bold text-scblue pt-6">Teaching Staff</h1>
 
       <div className="mt-4">
         <input

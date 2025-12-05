@@ -5,7 +5,7 @@ export default function Footer() {
         <div>
           <h3 className="text-scblue font-bold text-xl">Shivapuri College</h3>
           <p className="text-sm text-gray-300 mt-2">
-            Maharajganj, Thirbam Sadak, Kathmandu, Nepal. PO Box: 4789
+            Maharajgunj, Thirbam Sadak, Kathmandu, Nepal. PO Box: 4789
           </p>
           <p className="text-sm mt-2">Email: shivapuri@enet.com.np</p>
         </div>

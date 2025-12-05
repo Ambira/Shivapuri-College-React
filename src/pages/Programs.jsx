@@ -1,7 +1,7 @@
 export default function Programs() {
   return (
     <section className="py-14 max-w-5xl mx-auto px-6">
-      <h1 className="text-3xl font-bold text-scblue">Offered Programs</h1>
+      <h1 className="text-3xl font-bold text-scblue pt-6">Offered Programs</h1>
 
       <div className="mt-6 grid gap-6">
         <div className="p-6 bg-white rounded-lg shadow">

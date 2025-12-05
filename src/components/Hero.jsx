@@ -17,7 +17,13 @@ export default function Hero() {
 
   return (
     <section className="relative overflow-hidden hero-bg">
-      <div ref={bgRef} className="absolute inset-0 opacity-30" />
+      {/* STRONG RED PARALLAX BACKGROUND */}
+      <div
+        ref={bgRef}
+        className="absolute inset-0"
+        style={{ backgroundColor: "rgba(255, 0, 0, 0.7)" }} // stronger red
+      />
+
       <div className="relative max-w-6xl mx-auto px-6 py-28 lg:py-36">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           <div className="text-white">
@@ -27,14 +33,15 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex gap-4">
-              <a href="/programs" className="px-6 py-3 rounded bg-white text-scblue font-semibold shadow hover:opacity-95">Our Programs</a>
-              <a href="/contact" className="px-6 py-3 rounded border border-white text-white hover:bg-white hover:text-scblue transition">Contact</a>
+              <a href="/programs" className="px-6 py-3 rounded bg-white text-black font-semibold shadow hover:opacity-95">Our Programs</a>
+              <a href="/contact" className="px-6 py-3 rounded border border-white text-black hover:bg-white hover:text-black transition">Contact</a>
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow p-6">
-            <h3 className="text-scblue font-bold text-xl">Campus quick facts</h3>
-            <ul className="mt-4 space-y-2 text-sm text-gray-700">
+          {/* CAMPUS QUICK FACTS CARD (white background) */}
+          <div className="bg-white rounded-lg shadow p-6 text-black">
+            <h3 className="font-bold text-xl">Campus quick facts</h3>
+            <ul className="mt-4 space-y-2 text-sm">
               <li><strong>Established:</strong> 2066 BS (2010 AD)</li>
               <li><strong>Students:</strong> ~1700</li>
               <li><strong>BBS students:</strong> ~700</li>

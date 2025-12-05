@@ -18,16 +18,20 @@ export default function Navbar() {
       <div className="max-w-screen-2xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           
-          {/* College Logo + Title */}
+          {/* Logo + Title */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-600 to-yellow-500 flex items-center justify-center text-white font-bold">
-              SC
-            </div>
-            <div>
-              <div className="text-lg font-bold text-blue-700 whitespace-nowrap">
+            
+            <img
+              src="logo.jpg"
+              alt="Shivapuri Logo"
+              className="h-12 w-12 rounded-full object-cover"
+            />
+
+            <div className="flex flex-col leading-tight">
+              <span className="text-lg font-bold text-blue-700">
                 Shivapuri College
-              </div>
-              <div className="text-xs text-gray-500">Maharajganj, Kathmandu</div>
+              </span>
+             
             </div>
           </Link>
 

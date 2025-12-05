@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="py-14 max-w-5xl mx-auto px-6">
-      <h1 className="text-3xl font-bold text-scblue">About Shivapuri College</h1>
+      <h1 className="text-3xl font-bold text-scblue pt-6">About Shivapuri College</h1>
       <p className="mt-4 text-gray-700 leading-relaxed">
         Shivapuri College is an upgraded higher education provider of Shivapuri Secondary School,
         established in 2005 BS (1948 AD) and upgraded to the college in 2066 BS (2010 AD).
